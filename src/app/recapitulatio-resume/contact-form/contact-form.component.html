@@ -1,0 +1,32 @@
+<div>
+    <h2>Formularz kontaktowy</h2>
+</div>
+<form [formGroup]="contactForm" class="form-container">
+    <mat-form-field class="example-full-width">
+        <input matInput id="name" formControlName="name" placeholder="Imię: " required>
+        <mat-error *ngIf="name.invalid  && (name.dirty || name.touched)">{{getErrorMessage('name')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="field-container">
+        <input matInput id="company" placeholder="Nazwa firmy: " formControlName="company">
+        <mat-error *ngIf="company.invalid  && (company.dirty || company.touched)">{{getErrorMessage('company')}}
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="field-container">
+        <input matInput id="phone" placeholder="Telefon: " formControlName="phone" required>
+        <mat-error *ngIf="phone.invalid  && (phone.dirty || phone.touched)">{{getErrorMessage('phone')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="field-container">
+        <input matInput id="mail" placeholder="E-mail: " formControlName="mail" required>
+        <mat-error *ngIf="mail.invalid  && (mail.dirty || mail.touched)">{{getErrorMessage('mail')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="field-container">
+        <textarea matInput id="body" placeholder="Zapytanie: " formControlName="body" required></textarea>
+        <mat-error *ngIf="body.invalid  && (body.dirty || body.touched)">{{getErrorMessage('body')}}</mat-error>
+    </mat-form-field>
+
+    <button mat-button (click)="sendForm()" [disabled]="!contactForm.valid">Wyślij</button>
+</form>

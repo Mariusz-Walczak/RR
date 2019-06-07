@@ -1,0 +1,39 @@
+.mat-menu-content {
+  background-color: $menu-background-color;
+  @include menu(column);
+}
+.mat-divider{
+  padding-top:10px;
+}
+@media (max-width: 850px) {
+  .row-menu {
+    display: none;
+  }
+  .mat-column-other{
+    display:none;
+  }
+  p {
+     font-size:3vw;
+   }
+  h2 {
+    font-size: 6vw;
+  }
+}
+
+@media (min-width: 850px) {
+  .slide-menu {
+    display: none;
+  }
+  .row-menu {
+    display:flex;
+  }
+  p {
+    font-size:1.5vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+}
+
+
+

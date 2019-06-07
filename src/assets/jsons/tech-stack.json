@@ -1,0 +1,25 @@
+{
+  "title":"Umiejętności",
+  "body":[
+    {"name":"PHP",	"level":"9/10",	"exp":"10+",	"other":"Nie wypisywałem wszystkich bibliotek okolicznych i różnych innych technologii wspomagających, jak REST, jak SOAP itd. Ogólnie ciężko mnie zagiąć jeśli chodzi o PHP"},
+    {"name":"Symfony",	"level":"9/10",	"exp":"4+",	"other":"Robiłem wiele projektów pod Symfony i celowo nie pisałem o wszystkich bundlach i bibliotekach wspomagających, ogólnie Symfony nie ma tajemnic przede mną"},
+    {"name":"Zend",	"level":"7/10",	"exp":"3",	"other":"Znam, ale nie lubię go bardzo, bardzo, nawet nie wiecie jak bardzo"},
+    {"name":"Laravel",	"level":"6/10",	"exp":"1",	"other":"Nie mam doświadczenia komercyjnego, ale technologie znam"},
+    {"name":"TypeScript",	"level":"9/10",	"exp":"2",	"other":"Podobnie jak cały standard ES6"},
+    {"name":"JavaScript",	"level":"9/10",	"exp":"10+",	"other":"Pamętam jak robiło się hacki na IE 6, to były czasy…"},
+    {"name":"NodeJs",	"level":"8/10",	"exp":"3",	"other":"Tworzyłem kilka projektów w tej technologii, dla dużych firm, wraz z exspresem"},
+    {"name":"ExpressJs",	"level":"9/10",	"exp":"3",	"other":"Mała lecz znana biblioteczka, która idzie w zasadzie w parze z nodem"},
+    {"name":"AngularJs",	"level":"7/10",	"exp":"3",	"other":"Co ciekawe zaczynałem od Angulara 2, a dopiero potem od AngularaJs, natomiast mam kilka udanych projektów na koncie"},
+    {"name":"Angular",	"level":"8/10",	"exp":"3",	"other":"Moje główne narzędzie pracy, jeśli chodzi o technologię frontowe"},
+    {"name":"React",	"level":"5/10",	"exp":"1",	"other":"Nie mam doświadczenia komercyjnego, ale technologie znam"},
+    {"name":"VueJs",	"level":"5/10",	"exp":"1",	"other":"Nie mam doświadczenia komercyjnego, ale technologie znam"},
+    {"name":"CSS",	"level":"7/10",	"exp":"10+",	"other":"Znam, ale nie lubię dłubać w stylach, nie, to nie moja bajka, nie do końca ogarniam Flexa."},
+    {"name":"GIT",	"level":"9/10",	"exp":"4",	"other":"To chyba każdy zna prawie na wylot"},
+    {"name":"SQL",	"level":"9/10",	"exp":"10+",	"other":"Nic co w bazach danych się kryje nie jest mi obce, mogę chętnie pogadać o pivotach i b-drzewach"},
+    {"name":"MongoDB",	"level":"5/10",	"exp":"1",	"other":"Nie mam doświadczenia komercyjnego, ale technologie znam"},
+    {"name":"Technical leadership",	"level":"7/10",	"exp":"2",	"other":"Przewodziłem w kilku projektach z powodzeniem i przyjemnością po mojej stronie"},
+    {"name":"Team leadership",	"level":"7/10",	"exp":"2",	"other":"Przewodziłem w kilku projektach z powodzeniem i przyjemnością po mojej stronie"}
+  ],
+  "config":{"name":"Nazwa","level": "Stopień wtajemniczenia", "exp": "Lata doświadczenia", "other": "Uwagi"},
+  "type":"table"
+}

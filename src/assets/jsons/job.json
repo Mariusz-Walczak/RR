@@ -1,0 +1,9 @@
+{
+  "title":"Stanowiska",
+  "body":[
+    {"name":"Fullstack developer",	"exp":"10+", "other":"Przeżyłem wiele, nawet bardzo wiele, co tu dużo mówić, lata lecą"},
+    {"name":"Techleader/Teamleader", "exp":"2",	"other":"Jako głowa techniczna projektu, stosuje zasadę mjr Romocki. Każdy ma prawo wypowiedzieć się na dany temat, ale ostateczną decyzję w zespole podejmuje ja, natomiast jak się coś sypnie, to jestem jedynym winnym."}
+  ],
+  "config":{"name":"Nazwa", "exp": "Lata doświadczenia", "other": "Krótki opis"},
+  "type":"table"
+}

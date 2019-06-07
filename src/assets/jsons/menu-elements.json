@@ -1,0 +1,30 @@
+[
+  {
+  "id": "about",
+  "title": "O mnie"
+},
+{
+"id": "tech-stack",
+  "title": "Umiejętności"
+},
+{
+  "id": "job",
+  "title": "Stanowiska"
+},
+{
+  "id": "resume",
+  "title": "Podsumowanie"
+},
+{
+  "id": "english",
+  "title": "Języki"
+},
+{
+  "id": "projects",
+  "title": "Projekty"
+},
+{
+  "id": "condition",
+  "title": "Warunek"
+}
+]

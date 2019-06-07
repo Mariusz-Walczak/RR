@@ -1,0 +1,33 @@
+<nav class="mat-toolbar">
+    <mat-toolbar-row>
+        <div class="mat-top-menu">
+            <div class="slide-menu">
+                <div class="container" [matMenuTriggerFor]="menu" [class.change]="menuTrigger.menuOpen" #menuTrigger="matMenuTrigger">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <mat-menu #menu="matMenu">
+                    <ul role="navigation" *ngFor="let element of menuData">
+                        <li class="ng-star-inserted">
+                            <a class="nav-link" (click)="scrollToElement(element.id)" title="{{element.title}}">
+                                <span class="nav-link-inner">{{element.title}}</span>
+                            </a>
+                        </li>
+                        <mat-divider></mat-divider>
+                    </ul>
+                </mat-menu>
+            </div>
+            <div class="row-menu">
+                <ul role="navigation" *ngFor="let element of menuData">
+                    <li class="ng-star-inserted">
+                        <a class="nav-link" (click)="scrollToElement(element.id)" title="{{element.title}}">
+                            <span class="nav-link-inner">{{element.title}}</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </mat-toolbar-row>
+</nav>
+

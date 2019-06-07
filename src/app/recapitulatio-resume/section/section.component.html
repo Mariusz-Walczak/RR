@@ -1,0 +1,24 @@
+<div>
+<h2>{{response?.title}}</h2>
+
+</div>
+<div>
+  <table mat-table [dataSource]="response.body" class="mat-elevation-z8" *ngIf="response?.type==='table'">
+
+    <ng-container matColumnDef="{{displayColumn}}" *ngFor="let displayColumn of displayedColumns">
+      <th mat-header-cell *matHeaderCellDef> {{response.config[displayColumn] }} </th>
+      <td mat-cell *matCellDef="let element"> {{element[displayColumn]}} </td>
+    </ng-container>
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+
+  <p *ngIf="response?.type==='paragraph'">
+    {{response?.body}}
+  </p>
+
+</div>
+<mat-divider></mat-divider>

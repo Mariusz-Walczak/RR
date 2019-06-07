@@ -1,0 +1,7 @@
+<app-header class="header"></app-header>
+<div class="main-content">
+  <app-section [serviceName]="section.textId" *ngFor="let section of sections" id="{{section.textId}}"></app-section>
+  <a href="assets/documentation.zip" mat-button>Pobierz kod tej strony</a>
+  <a href="assets/cv.pdf" mat-button>Pobierz CV strony</a>
+</div>
+
